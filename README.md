@@ -7,15 +7,15 @@ I document my builds publicly on LinkedIn (Esther Ndukwe), sharing not just the 
 
 # Projects So Far
 
-# 1.International Job Hunt Automation
+# 1. International Job Hunt Automation
 Automatically fetches international Data Analyst job listings, filters for relevant roles, logs matches to Google Sheets, and sends email alerts twice a day, every day.
 
 **Stack:** n8n, Adzuna API, Google Sheets, Gmail
 
-# 2. [Invoice Follow-up Automation](./02-invoice-followup-automation)
+# 2. Invoice Follow-up Automation
 A business automation that tracks unpaid invoices and sends escalating follow-up reminders (polite → firm → final warning) to clients automatically, stopping once payment is received.
 
-**Stack:** n8n, Airtable, Gmail
+*Stack:* n8n, Airtable, Gmail
 
 # Tools I'm working with
 
