@@ -7,7 +7,7 @@ I document my builds publicly on LinkedIn (Esther Ndukwe), sharing not just the 
 
 # Projects So Far
 
-# 1. [International Job Hunt Automation](./01-job-hunt-automation)
+# 1.International Job Hunt Automation
 Automatically fetches international Data Analyst job listings, filters for relevant roles, logs matches to Google Sheets, and sends email alerts twice a day, every day.
 
 **Stack:** n8n, Adzuna API, Google Sheets, Gmail
