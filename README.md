@@ -19,11 +19,11 @@ A business automation that tracks unpaid invoices and sends escalating follow-up
 
 # Tools I'm working with
 
-- **n8n** — workflow automation 
-- **Airtable** — structured data storage for business workflows
-- **Google Sheets / Gmail** — logging and notifications
-- **Adzuna API** — job listing data
-- **Gemini / OpenAI** — exploring AI Agent nodes for future projects
+- **n8n** - workflow automation 
+- **Airtable** - structured data storage for business workflows
+- **Google Sheets / Gmail** - logging and notifications
+- **Adzuna API** - job listing data
+- **Gemini / OpenAI** - exploring AI Agent nodes for future projects
 
 ## What's next
 
