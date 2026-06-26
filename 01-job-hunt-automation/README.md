@@ -53,3 +53,6 @@ Company, Location, Job URL, and Date Found, then published the workflow so it wo
 ## Status
 
 Live and running daily (currently on localhost - migration to n8n Cloud planned for 24/7 uptime without requiring my laptop to stay on)
+
+<img width="835" height="353" alt="image" src="https://github.com/user-attachments/assets/95831418-6cb2-4707-bb4c-3a403e817c92" />
+
