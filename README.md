@@ -5,19 +5,19 @@ Hi, I'm Esther Ndukwe a Data Analyst learning AI automation and building practic
 I document my builds publicly on LinkedIn (Esther Ndukwe), sharing not just the finished product but the errors, fixes, and lessons learned along the way.
 
 
-# Projects So Far
+## Projects So Far
 
-# 1. International Job Hunt Automation
+## 1. International Job Hunt Automation
 Automatically fetches international Data Analyst job listings, filters for relevant roles, logs matches to Google Sheets, and sends email alerts twice a day, every day.
 
 **Stack:** n8n, Adzuna API, Google Sheets, Gmail
 
-# 2. Invoice Follow-up Automation
+## 2. Invoice Follow-up Automation
 A business automation that tracks unpaid invoices and sends escalating follow-up reminders (polite → firm → final warning) to clients automatically, stopping once payment is received.
 
 *Stack:* n8n, Airtable, Gmail
 
-# Tools I'm working with
+## Tools I'm working with
 
 - **n8n** - workflow automation 
 - **Airtable** - structured data storage for business workflows
