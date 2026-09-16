@@ -23,8 +23,7 @@ Chat Trigger → AI Agent (system prompt + tools) → Response
 | Component | Purpose |
 |---|---|
 | **AI Agent** | Core of the workflow, holds the system prompt defining identity, tone, intake flow, and recommendation logic |
-| **Product Catalog** | Real Nigeria-available skincare products (face wash, serum, toner, moisturizer, exfoliators, sunscreen, 
-face cream, body cream, body wash) tagged by skin type, skin tone, and concern |
+| **Product Catalog** | Real Nigeria-available skincare products (face wash, serum, toner, moisturizer, exfoliators, sunscreen, face cream, body cream, body wash) tagged by skin type, skin tone, and concern |
 | **check consultation (Code Tool)** | Validates whether a requested day/time falls within bookable consultation hours |
 | **Google Calendar** | Books confirmed consultation slots directly from the conversation |
 | **Google Sheets** | Logs customer name, email, and phone number captured during the chat |
