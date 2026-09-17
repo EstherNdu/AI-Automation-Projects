@@ -24,7 +24,7 @@ Chat Trigger → AI Agent (system prompt + tools) → Response
 |---|---|
 | **AI Agent** | Core of the workflow, holds the system prompt defining identity, tone, intake flow, and recommendation logic |
 | **Product Catalog** | Real Nigeria-available skincare products (face wash, serum, toner, moisturizer, exfoliators, sunscreen, face cream, body cream, body wash) tagged by skin type, skin tone, and concern |
-| **check consultation (Code Tool)** | Validates whether a requested day/time falls within bookable consultation hours |
+| **Check consultation (Code Tool)** | Validates whether a requested day/time falls within bookable consultation hours |
 | **Google Calendar** | Books confirmed consultation slots directly from the conversation |
 | **Google Sheets** | Logs customer name, email, and phone number captured during the chat |
 
@@ -38,8 +38,7 @@ Chat Trigger → AI Agent (system prompt + tools) → Response
 ## My Setup Process
 
 I started by choosing a B2C skincare ecommerce store as the use case over other niches I considered (real estate, fashion, 
-fitness supplements), since skincare gives a natural reason for the AI to ask diagnostic questions and make
-personalized recommendations rather than just answering FAQs.
+fitness supplements).
 
 I built out a product catalog using real, Nigeria-available skincare products across nine categories, and tagged each one by 
 skin type, skin tone, and concern so the AI agent would have structured data to reason over instead of guessing.
@@ -49,7 +48,7 @@ the recommendation logic for matching products to a customer's profile, and esca
 off to a human instead of continuing.
 
 Since the business only takes consultation bookings on specific days and hours (Tuesday, Thursday, and Saturday, 12 to 3 PM
-WAT), I built a custom Code Tool called `check consultation ` so date and day-of-week validation happens in code rather 
+WAT), I built a custom Code Tool called `Check consultation ` so date and day-of-week validation happens in code rather 
 than being left to the model to calculate, which is more reliable.
 
 I connected a Google Calendar node as a tool so the AI agent can create a booking directly, using `$fromAI` to pass the 
@@ -61,9 +60,7 @@ manual data entry.
 
 ## Lessons Learned
 
-- **LLMs shouldn't do date and time math.** Letting the agent calculate day-of-week and validate consultation slots on its own 
-was unreliable. A small JavaScript Code Tool now checks the date and confirms it falls in the allowed window, so the model
-just calls the tool instead of doing arithmetic itself.
+- **LLMs shouldn't do date and time math.** Letting the agent calculate day-of-week and validate consultation slots on its own was unreliable. A small JavaScript Code Tool now checks the date and confirms it falls in the allowed window, so the model just calls the tool instead of doing arithmetic itself.
 
 - **Escalation should lead somewhere.** Instead of a dead-end "let me get a human," every unanswerable question routes into
 booking a free consultation. That turns a limitation into a conversion point instead of a frustration.
@@ -73,7 +70,7 @@ user can argue with a prompt. The Calendar tool itself is scoped so it cannot cr
 no matter what the model tries to pass it.
 
 - **Small syntax slips cause confusing errors.** A single capitalization typo (`$FromAI` instead of `$fromAI`) produced 
-an error about unbalanced parentheses that had nothing to do with the real issue.
+an error about unbalanced parentheses. So paying attention to letter cases is very important.
 
 ## Status
 
