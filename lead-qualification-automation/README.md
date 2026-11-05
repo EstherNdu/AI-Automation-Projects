@@ -98,6 +98,7 @@ link and received the reminders.
 - Move from a local setup and ngrok to a hosted n8n instance with a permanent address, so it runs without my laptop being on.
 - Add a backup path and an error trigger for when the AI provider is down or out of quota, so no lead is ever dropped.
 - Send hot-lead alerts to Slack as well as email.
+- Remove n8n attribution in the emails
 
 
 ## Who this helps
@@ -105,6 +106,10 @@ link and received the reminders.
 Any business that gets leads through a form: agencies, consultancies, SaaS companies, service businesses e.t.c. 
 The details of the rubric change from one company to the next, but the problem is the same everywhere, and so is the fix.
 
+<img width="701" height="306" alt="Screenshot 2026-11-05 225244" src="https://github.com/user-attachments/assets/dce6d5c6-4013-4e52-a181-6799de5475de" />
 
+<img width="770" height="272" alt="image" src="https://github.com/user-attachments/assets/eb23f548-b2d0-4c26-a01e-5665833d1a7e" />
+
+<img width="719" height="205" alt="image" src="https://github.com/user-attachments/assets/d845e70e-7e1f-4c2a-88f1-4efe7806362a" />
 
 ---
